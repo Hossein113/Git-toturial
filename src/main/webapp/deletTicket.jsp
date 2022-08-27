@@ -23,13 +23,12 @@
     </h2>
 </dive>
 
-<ul>
-    <li><a href="/select.jsp">خرید بلیط</a></li>
+<div>
+    <a class="item" href="/select.jsp">خرید بلیط</a>
+    <br>
+    <a class="item" href="/showTicketBuy" methods="get">نمایش بلیط</a></li>
+</div>
 
-    <li><a href="/showTicketBuy">نمایش بلیط</a></li>
-
-
-</ul>
 
 </body>
 </html>

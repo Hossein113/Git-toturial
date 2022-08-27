@@ -1,5 +1,5 @@
 .div1 {
-    margin: 0px 150px;
+    margin: 30px 150px;
     background-color: lightgray;
     width: 1300px;
     height: 60px;
@@ -89,17 +89,29 @@ tbody {
 }
 
 .size {
-    width: 200px;
-    height: 20px;
+    padding: 2px 0px;
+    width: 98%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
+body {
+    background: linear-gradient(to bottom, dodgerblue, lightpink);
 }
 
 .ok {
-    background-color: orange;
+    background-color: darkorange;
     color: white;
-    width: 100px;
-    height: 20px;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px orangered outset;
+    border-radius: 3px;
+
+    text-shadow: none;
 }
+
 
 .successful {
     width: 900px;
@@ -107,13 +119,14 @@ tbody {
     text-align: center;
     background-color: green;
     color: white;
+    border-radius: 8px;
 
 
 }
 
 .cent {
     text-align: center;
-    margin: 100px 400px;
+    margin: 100px 300px;
     padding: 40px;
 
 }
@@ -123,3 +136,57 @@ tbody {
     text-align: center;
 
 }
+
+.pading {
+    padding-top: 15px;
+}
+
+
+.select {
+    background-color: white;
+    border: 2px orange outset;
+    background-color: rgba(211, 211, 211, 0.65);
+    padding: 2px 10px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.item {
+
+    font-family: Arial;
+    font-style: oblique;
+    font-size: 18px;
+    border-radius: 2px;
+    border: 1px rgba(1, 1, 1, 0.93) outset;
+    background-color: rgb(187, 183, 183);
+    display: inline-block;
+    margin: 5px 25px;
+    color: black;
+    padding: 5px;
+}
+
+.notfind {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 400px;
+    padding: 12px 0px;
+    display: block;
+    border: 2px red inset;
+    border-radius: 4px;
+
+    background: linear-gradient(to bottom left, orange, white, red, darkred);
+}
+
+.margin-buy {
+    margin: 40px 0px;
+
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+}
+

@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="back">
 
 <br>
 <br>
@@ -27,13 +27,13 @@
         <tr>
             <label for="name"></label>
             <td><input class="size" type="text" id="name" name="name"></td>
-            <td>نام و نام خانوادگی</td>
+            <td>: نام و نام خانوادگی</td>
         </tr>
 
         <tr>
             <td><input type="radio" name="gender" value="female">مرد<input type="radio" name="gender" value="male">زن
             </td>
-            <td>جنسیت</td>
+            <td>: جنسیت</td>
         </tr>
         <tr>
             <td colspan="2"><input class="ok" type="submit" value="تایید"></td>

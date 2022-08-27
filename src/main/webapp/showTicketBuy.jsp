@@ -18,18 +18,18 @@
 
 <body>
 
+<div class="c">
+    <table class="margin-buy">
+        <thead>
+        <tr class="thead3">
+            <th colspan="3"> &emsp; لیست بلیط های خریداری شده</th>
+        </tr>
 
-<table align="center">
-    <thead>
-    <tr class="thead3">
-        <th colspan="3"> &emsp; لیست بلیط های خریداری شده</th>
-    </tr>
 
+        </thead>
 
-    </thead>
-
-    <tbody>
-    <tr>
+        <tbody>
+        <tr>
         <th>تاریخ</th>
         <th>شناسه بلیط</th>
         <th>انتخاب</th>
@@ -61,7 +61,7 @@
 
     </tbody>
 
-</table>
-
+    </table>
+</div>
 </body>
 </html>

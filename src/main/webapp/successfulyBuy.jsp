@@ -27,12 +27,13 @@
         <%out.print(ticket); %> :شناسه بلیط
     </h2>
 </dive>
-<ul>
-    <li><a href="/select.jsp">خرید بلیط</a></li>
 
-    <li><a href="/showTicketBuy" methods="get">نمایش بلیط</a></li>
+<div>
+    <a class="item" href="/select.jsp">خرید بلیط</a>
+    <br>
+    <a class="item" href="/showTicketBuy" methods="get">نمایش بلیط</a></li>
+</div>
 
 
-</ul>
 </body>
 </html>

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="back">
 
 <div class="div1">
     <form action="/searchticket" method="post">
@@ -44,12 +44,16 @@
         </select>
     </form>
 </div>
+
 <% String notFind = (String) request.getAttribute("nofind");
-    if (notFind != null) {%>
-<h2><%
+    if (notFind != null) {
+        notFind = "موردی یافت نشد";
+%>
+
+<div class="notfind"><%
         out.print(notFind);
     }
-%></h2>
+%></div>
 
 
 <%--<% List<Ticket> ticket = (List<Ticket>) request.getAttribute("ticket");--%>
@@ -83,7 +87,7 @@
     <thead class="thead1">
     <tr>
         <th> &emsp; <% out.print(request.getAttribute("time"));%> : تاریخ حرکت &emsp;</th>
-        <th colspan="2"> &emsp; <% out.print(request.getAttribute("source")); %> - <%
+        <th class="selectBuy" colspan="2"> &emsp; <% out.print(request.getAttribute("source")); %> - <%
             out.print(request.getAttribute("dest"));%>: مسیر &emsp;
         </th>
     </tr>
@@ -102,10 +106,10 @@
 
 
     %>
-    <tr>
+    <tr class="center">
         <td><%out.print(text.getTravelCode());%></td>
         <td><%out.print(text.getMoveTime());%></td>
-        <td>
+        <td class="pading" align="center">
             <%--            --%>
 
             <%--            <a href="/submit-ticket?ticketId=<%out.print(text.getId());%>">--%>
@@ -115,8 +119,9 @@
 
             <form action="/submit-ticket" method="post">
                 <input name="ticketId" type="hidden" value="<%out.print(text.getId());%>">
+                <input class="select" type="submit" value="خرید">
 
-                <input align="center" type="submit" value="انتخاب">
+
             </form>
         </td>
     </tr>

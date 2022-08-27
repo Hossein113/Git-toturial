@@ -32,7 +32,7 @@ public class SearcTicket extends HttpServlet {
 
         } else {
             req.setAttribute("hasTicket", false);
-            req.setAttribute("nofind", "موردی یافت نشد !!!");
+            req.setAttribute("nofind", "موردی یافت نشد");
             req.getRequestDispatcher("/select.jsp").forward(req, resp);
         }
 //        if (showTickets != null) {
